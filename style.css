@@ -44,3 +44,54 @@ footer {
     background: #333;
     color: #fff;
 }
+
+/* Estilos para las medallas */
+.medals {
+    display: flex;
+    align-items: center;
+}
+
+.medal-icon {
+    width: 30px;   /* Tamaño ajustado de las medallas */
+    height: 30px;  /* Tamaño ajustado de las medallas */
+    margin-left: 10px; /* Espacio entre las medallas */
+}
+
+/* Medallas por tipo */
+.medal-icon[src$="gold.png"] {
+    border: 2px solid gold;
+    border-radius: 50%;
+}
+
+.medal-icon[src$="silver.png"] {
+    border: 2px solid silver;
+    border-radius: 50%;
+}
+
+.medal-icon[src$="bronze.png"] {
+    border: 2px solid #cd7f32;
+    border-radius: 50%;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+ol li {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
