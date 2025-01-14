@@ -1,0 +1,46 @@
+body {
+    font-family: 'Press Start 2P', cursive;  /* Fuente de estilo gaming */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #25F4EE, #FE3C72); /* Fondo estilo TikTok (verde y rosa) */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+ol li {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
